@@ -17,6 +17,7 @@ $(function(){
   ]
 })
   var $mainElement = ("[data-js='main']");
+  var $modalElement = ("[data-js='modal']");
 
   imagesArray.forEach(function(images){
     var newImage = $("<img>").attr("src", images.src);
