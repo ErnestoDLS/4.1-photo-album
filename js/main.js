@@ -22,15 +22,7 @@ $(function(){
     var newImage = $("<img>").attr("src", images.src);
     $mainElement.append(newImage);
 
-    $('fathertime').click(function() {
-    $(this).toggleClass('clicked');
-});
-img {
-    width: 50%
-    height: auto
-}
-
-.clicked {
-    width: auto;
-}
+    $(document).ready(function(){
+      $('.thumb-nailcontainer').thumb-nailcontainer({width:100, height:100 });
+    });
   })
