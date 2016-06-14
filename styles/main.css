@@ -67,8 +67,7 @@
   padding: 0; }
 
 html {
-  font-size: 62.5%;
-  font-family: sans-serif; }
+  font-size: 62.5%; }
 
 .image {
   height: 100%;
@@ -83,26 +82,22 @@ html {
   text-decoration: none;
   list-style: none;
   display: inline-block;
-  text-align: center;
-  background-color: black;
-  margin-right: 5%;
   color: white;
-  cursor: pointer; }
-
-.image__container:nth-child(3) {
-  margin-right: 0%; }
-
-.image__container:nth-child(6) {
-  margin-right: 0%; }
-
-main {
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 3rem; }
-
-h1 {
+  background-color: black;
   text-align: center;
-  margin-bottom: 2rem; }
+  margin-right: 5%;
+  cursor: pointer; }
+  .image__container .image__container:nth-child(3) {
+    margin-right: 0%; }
+  .image__container .image__container:nth-child(6) {
+    margin-right: 0%; }
+  .image__container main {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3rem; }
+  .image__container h1 {
+    text-align: center;
+    margin-top: 2rem; }
 
 .modal {
   background: #323232;
@@ -112,7 +107,7 @@ h1 {
   top: 0;
   bottom: -200; }
 
-.modal__fox {
+.modal__couple {
   background: #323232;
   position: absolute;
   left: 0;
@@ -120,7 +115,7 @@ h1 {
   top: 0;
   bottom: -200; }
 
-.modal__tiger {
+.modal__building {
   background: #323232;
   position: absolute;
   left: 0;
@@ -128,7 +123,7 @@ h1 {
   top: 0;
   bottom: -200; }
 
-.modal__deer {
+.modal__dogs {
   background: #323232;
   position: absolute;
   left: 0;
@@ -137,7 +132,7 @@ h1 {
   bottom: -200; }
 
 .modal__container {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 5rem;
@@ -148,21 +143,23 @@ h1 {
   color: white;
   font-size: 3rem; }
 
-.modal__hide--tiger {
+.modal__hide--couple {
   display: none; }
 
-.modal__hide--fox {
+.modal__hide--building {
   display: none; }
 
-.modal__hide--deer {
+.modal__hide--dogs {
   display: none; }
 
 div img {
   width: 100%;
   display: inline-block;
   position: relative;
-  border: 5px solid #646464; }
+  border: 4px solid #646464; }
 
 button {
   margin-bottom: 1rem;
   cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
