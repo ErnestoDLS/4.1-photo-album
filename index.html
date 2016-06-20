@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Album</title>
+    <link rel="stylesheet" href="styles/main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="modal__couple modal__hide--couple" data-js="modal__couple">
+      <div class="modal__container">
+        <h1>1</h1>
+        <button data-js="back__button" name="button">Back to Album 1</button>
+        <img data-type="couple__image" src="images/couple.jpeg" alt="couple" />
+      </div>
+    </div>
+    <div class="modal__building modal__hide--building" data-js="modal__building">
+      <div class="modal__container">
+        <h1>2</h1>
+        <button data-js="back__button" type="button" name="button">Back to Album 1</button>
+        <img data-js="building__image" src="images/yellowbuilding.jpeg" alt="building" />
+      </div>
+    </div>
+    <div class="modal__dogs modal__hide--dogs" data-js="modal__dogs">
+      <div class="modal__container">
+        <h1>3</h1>
+        <button data-js="back__button" type="button" name="button">Back to Album 1</button>
+        <img data-js="dogs__image" src="images/squad.jpg" alt="dogs" />
+      </div>
+    </div>
+    <main>
+      <h1>Album 1</h1>
+      <ul data-js="photo__list">
+
+      </ul>
+    </main>
+  </body>
+
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,1 @@
+console.error("Error: Parsing file /Users/ernestodelossantos/git/4.1-photo-album/js/lecture.js: Unexpected token (3:12)");
